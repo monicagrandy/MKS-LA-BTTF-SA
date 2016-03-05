@@ -11,10 +11,12 @@
 
 ## Grading Outline
 
-- [ ] algo-complexity
-- [ ] algo-find-dup-char
-- [ ] d3-describe
 - [ ] js-inheritance-pseudo-classical
+- [ ] BTTF: values & types
+- [ ] BTTF: scope, closure, modules
+- [ ] BTTF: this, object prototypes
+- [ ] BTTF: functional-light programming
+- [ ] BTTF: async programming
 
 ## Self-Grading Process
 
@@ -30,7 +32,7 @@ The file `syntaxalyze.html` is included. Open it in your browser and then drag y
 
 Solutions are submitted via [Pull Request](https://help.github.com/articles/using-pull-requests). Follow these steps:
 
-1. From **your fork**, select `Pull Requests` and then create a `New pull request`. 
+1. From **your fork**, select `Pull Requests` and then create a `New pull request`.
 2. STOP. *Before* you `Click to create a pull request for this comparison` you must **adjust the target branch** (aka `base branch`) to be your username. Once chagned, the pull-request heading should look like this:
 
   > makersquare:username ... username:master
@@ -40,20 +42,30 @@ Solutions are submitted via [Pull Request](https://help.github.com/articles/usin
 
 ---
 
-## Algorithm Complexity
-* [ ] List and briefly describe the types of algorithmic complexity. Be as clear and complete as necessary to demonstrate your mastery.
-* [ ] What time complexity do the given functions have (with respect to the size of the input `array`)?
-
-
-## Algorithms
-* [ ] Write a function that, given a string, returns an array of all duplicated letters.
-* [ ] Include a comment near the end of the file stating what complexity you believe your solution to be.
-
-## D3
-* [ ] Add a comment for each numbered line of code in `d3-describe.js`. If you run up against a method call you haven't seen before, feel free to look up what it does -- but explain it in your own words.  Make certain not to just repeat what the code already states clearly.
-
 
 ## Pseudo-classical inheritance
 * [ ] Refactor `makePhone` and `makeSmartphone` to use pseudo-classical inheritance
   * They should have all of the same methods as objects returned from the maker functions
   * _Do not modify the factory functions - instead, use the constructor functions at the end of the file_
+
+## BTTF: values & types
+
+* [ ] Fix the snippet to print out the correct message
+* [ ] Write a snippet to demonstrate 3 explicit and 3 implicit coercions
+
+## BTTF: scope, closure, modules
+
+* [ ] Write a module that includes 2 each of private variables, private functions, and public API methods.
+* [ ] Write a snippet to demonstrate calling the public methods on the module.
+
+## BTTF: this, object prototypes
+
+* [ ] Convert the snippet from prototypal to "OLOO" style code
+
+## BTTF: functional-light programming
+
+* [ ] Write a pure-function to process a list of numbers and return the result.
+
+## BTTF: async programming
+
+* [ ] Convert from nested callbacks to a chain of promises
