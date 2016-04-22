@@ -11,7 +11,6 @@
 
 ## Grading Outline
 
-- [ ] js-inheritance-pseudo-classical
 - [ ] BTTF: values & types
 - [ ] BTTF: scope, closure, modules
 - [ ] BTTF: this, object prototypes
@@ -42,11 +41,6 @@ Solutions are submitted via [Pull Request](https://help.github.com/articles/usin
 
 ---
 
-
-## Pseudo-classical inheritance
-* [ ] Refactor `makePhone` and `makeSmartphone` to use pseudo-classical inheritance
-  * They should have all of the same methods as objects returned from the maker functions
-  * _Do not modify the factory functions - instead, use the constructor functions at the end of the file_
 
 ## BTTF: values & types
 
